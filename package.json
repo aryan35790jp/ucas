@@ -1,0 +1,17 @@
+{
+  "name": "apptest-2-ucas-automation",
+  "private": true,
+  "version": "0.0.0",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18.18 <23"
+  },
+  "scripts": {
+    "ucas": "node ./automation/ucas/ucas.cjs",
+    "ucas:auth": "node ./automation/ucas/ucas-auth.cjs",
+    "ucas:open": "node ./automation/ucas/ucas-open.cjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.57.0"
+  }
+}
