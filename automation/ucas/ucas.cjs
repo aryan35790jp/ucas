@@ -62,7 +62,7 @@ function parseArgs(argv) {
   const baseDelayMs = flags.has('--fast') ? 0 : Math.max(0, Number(delayMsRaw ?? 1000));
   const delayMs = Math.round(baseDelayMs / speed);
 
-  const baseSlowMo = flags.has('--fast') ? 0 : Math.max(0, Number(slowMoRaw ?? 75));
+  const baseSlowMo = flags.has('--fast') ? 0 : Math.max(0, Number(slowMoRaw ?? 15));
   const slowMo = Math.round(baseSlowMo / speed);
 
   const randomTitle = universal || flags.has('--random-title') || flags.has('--random-title-value');

@@ -9,3 +9,7 @@ test-results/
 # UCAS session + artifacts (keep locally)
 automation/ucas/storageState.ucas.json
 automation/ucas/artifacts/
+
+# Common App session + artifacts (keep locally)
+automation/commonapp/storageState.commonapp.json
+automation/commonapp/artifacts/

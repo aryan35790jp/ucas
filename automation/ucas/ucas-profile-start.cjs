@@ -42,7 +42,7 @@ function parseArgs(argv) {
   return {
     targetUrl: urlArg || 'https://services.ucas.com/apply2026/home',
     section: getFlagValue('--section') || 'Personal details',
-    slowMo: flags.has('--fast') ? 0 : 75,
+    slowMo: flags.has('--fast') ? 0 : 15,
   };
 }
 

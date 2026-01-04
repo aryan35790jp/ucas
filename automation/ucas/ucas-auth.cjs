@@ -29,7 +29,7 @@ function waitForEnter() {
   const targetUrl = 'https://services.ucas.com/apply2026/home';
 
   console.log('[ucas:auth] Launching Chromium (headed) with slowMo...');
-  const browser = await chromium.launch({ headless: false, slowMo: 75 });
+  const browser = await chromium.launch({ headless: false, slowMo: 15 });
   const context = await browser.newContext();
   const page = await context.newPage();
 

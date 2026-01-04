@@ -9,7 +9,8 @@
   "scripts": {
     "ucas": "node ./automation/ucas/ucas.cjs",
     "ucas:auth": "node ./automation/ucas/ucas-auth.cjs",
-    "ucas:open": "node ./automation/ucas/ucas-open.cjs"
+    "ucas:open": "node ./automation/ucas/ucas-open.cjs",
+    "commonapp": "node ./automation/commonapp/commonapp.cjs"
   },
   "devDependencies": {
     "playwright": "^1.57.0"

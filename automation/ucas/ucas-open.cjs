@@ -23,7 +23,7 @@ const STORAGE_STATE_PATH = path.join(__dirname, 'storageState.ucas.json');
   const targetUrl = process.argv[2] || 'https://services.ucas.com/apply2026/home';
 
   console.log('[ucas:open] Launching Chromium (headed) with slowMo...');
-  const browser = await chromium.launch({ headless: false, slowMo: 75 });
+  const browser = await chromium.launch({ headless: false, slowMo: 15 });
 
   const context = await browser.newContext({ storageState: STORAGE_STATE_PATH });
   const page = await context.newPage();
